@@ -198,6 +198,19 @@
     <div class="projects">
 
       <article class="card">
+        <div class="meta"><span>Retail analytics</span><span class="status">Live</span></div>
+        <h3>Retail Demand Forecasting &amp; Price Elasticity</h3>
+        <p>A 12-page Streamlit app that takes retail sales data from cleaning and feature engineering through to forecasting (SARIMA, Prophet, XGBoost) and price elasticity modelling. The key finding was about the data itself: price had no measurable effect on demand, which exposed the public dataset as synthetic before any pricing decision was built on it.</p>
+        <div class="metrics">
+          <div class="metric"><strong>73k</strong><span>daily records</span></div>
+          <div class="metric"><strong>β ≈ 0</strong><span>elasticity, all categories</span></div>
+          <div class="metric"><strong>0.997</strong><span>leakage caught</span></div>
+        </div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">statsmodels</span><span class="tag">Prophet</span><span class="tag">XGBoost</span></div>
+        <div class="links"><a data-goatcounter-click="demo-retail" href="https://carlobam-retail-forecasting.streamlit.app/" target="_blank" rel="noopener">Live demo ↗</a> &nbsp;·&nbsp; <a data-goatcounter-click="repo-retail" href="https://github.com/CarloBam/Retail-Store-Inventory-Forecasting" target="_blank" rel="noopener">View repository →</a></div>
+      </article>
+
+      <article class="card">
         <div class="meta"><span>Workforce analytics</span><span class="status wip">Rebuilding</span></div>
         <h3>Attrition Risk Model</h3>
         <p>An employee attrition risk app with CSV ingestion, a modelling pipeline and separate views for HR administrators, executives and data scientists. Protected characteristics are excluded by default, with a disparate impact screen before any sensitive feature is used. Being rebuilt to production standard on public data.</p>
